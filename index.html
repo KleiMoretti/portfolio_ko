@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Portfolio </title>
+</head>
+
+<body sm:justify-center flex flex-col>
+    <section class="min-h-screen  relative">
+        <div>
+            <div>
+                <!--MOBILE-->
+                <div class="flex md:hidden p-4 w-full justify-end group relative">
+
+                    <!-- menu -->
+                    <div class="absolute top-full right-0 hidden group-hover:flex p-5">
+                        <div class="bg-white p-2 shadow w-40 flex flex-col justify-center rounded-md">
+                            <div class="p-2 hover:bg-gray-100 rounded-lg">
+                                <p>About</p>
+                            </div>
+                            <div class="p-2 hover:bg-gray-100 rounded-lg">
+                                <p>Project</p>
+                            </div>
+                            <div class="p-2 hover:bg-gray-100 rounded-lg">
+                                <p>Skills</p>
+                            </div>
+                            <div class="p-2 hover:bg-gray-100 rounded-lg">
+                                <p>Blob</p>
+                            </div>
+                            <div class="p-2 hover:bg-gray-100 rounded-lg">
+                                <p>Contact</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- icon -->
+                    <div>
+                        <i class="bi bi-list text-4xl cursor-pointer"></i>
+                    </div>
+
+                </div>
+
+                <!--NAV-->
+                <div
+                    class="border-gray-500 w-full p-5 bg-white gap-4 hidden md:flex lg:flex items-center shadow upDown">
+                    <!--Username-->
+                    <div class="w-[10%] p-3 font-bold flex justify-center">
+                        <p>Klei.moretti</p>
+                    </div>
+
+                    <!-- navigation button-->
+                    <div class="flex w-[55%] justify-end items-center">
+                        <div class="flex gap-10">
+                            <div class="cursor-pointer">
+                                <p>About</p>
+                            </div>
+                            <div class="cursor-pointer">
+                                <p>Project</p>
+                            </div>
+                            <div class="cursor-pointer">
+                                <p>Skills</p>
+                            </div>
+                            <div class="cursor-pointer">
+                                <p>Blog</p>
+                            </div>
+                            <div class="cursor-pointer">
+                                <p>Contact</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex w-[25%]  justify-end items-center">
+                        <div class="bg-gray-700 text-white pt-2 pb-2 pl-4 pr-4 rounded-lg cursor-pointer">
+                            <p><a class="no-underline text-white"
+                                    href="https://www.facebook.com/xx.xx.xx.xx.xx.xx.1412">Let's talk</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col md:items-start lg:flex-row items-center lg:items-center justify-between mt-[3vw]">
+                <div class="px-6 md:pl-16 lg:pl-20 gap-5 flex flex-col">
+                    <!--TEXT AREA-->
+                    <div class="flex gap-2 items-center justify-start sideLeft">
+                        <div class="rounded-full bg-green-500 w-3 h-3"></div>
+                        <p>Open to freelance & full-time roles</p>
+                    </div>
+
+                    <div class="text-4xl md:text-[4vw] lg:text-[3.2vw] mt-10 text-left leading-tight sideLeft">
+                        <p class="font-bold">Jhon Leonard</p>
+                        <p>Gualdahara.</p>
+                    </div>
+
+                    <div class="flex justify-start mt-[2vw] sideLeft">
+                        <div class="bg-white w-32 sm:w-40 md:w-44 rounded-2xl 
+                        flex justify-center items-center 
+                            text-xs sm:text-sm border border-gray-500 p-2">
+                            <p>Full-Stack Developer</p>
+                        </div>
+                    </div>
+
+                    <div
+                        class="w-full sm:flex-row md:max-w-md font-bold mt-10 text-left text-sm md:text-lg leading-relaxed sideLeft">
+                        <p>
+                            I build fast, accessible and thoughtful products for the modern web.
+                        </p>
+                    </div>
+
+                    <div class="flex flex-col md:flex-row gap-4 mt-6 invisible">
+
+                        <div class=" bg-black text-white text-sm rounded-full px-6 py-2 flex justify-center">
+                            <p>See Recent Projects</p>
+                        </div>
+
+                        <div class="text-black bg-gray-200 text-sm rounded-full px-6 py-2 flex justify-center">
+                            <p>Get In Touch</p>
+                        </div>
+
+                    </div>
+
+                    <div id="p-and-t" class=" mt-[50px] upDown">
+                        <div class="flex text-lg  font-bold w-[350px]  mb-0 justify-between">
+                            <div>
+                                <div>
+                                    <p class="text-2xl">3+</p>
+                                </div>
+                                <div>
+                                    <p>P R O J E C T</p>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div>
+                                    <p class="text-2xl">10+</p>
+                                </div>
+                                <div>
+                                    <p>T E C H S T A C K</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="c1" class="hidden lg:flex lg:flex items-center justify-center">
+                    <div>
+                        <video id="vidC1" autoplay loop muted playsinline class="w-[300px] lg:w-[400px]">
+                            <source src="assets/videos/circles/c1.mp4" type="video/mp4">
+                        </video>
+
+                        <video id="vidC2" hidden autoplay loop muted playsinline class="w-[500px]">
+                            <source src="assets/videos/circles/c2.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+                <div class="hidden hidden lg:flex  justify-end upDown1">
+                    <div class="w-full p-10">
+                        <img class="w-[500px] rounded-2xl shadow" src="assets/profiles/profile.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="section2" class=" min-h-screen  relative">
+        <div class=" flex flex-col lg:flex-row items-start justify-center p-5 md:p-[100px] gap-20">
+
+            <!-- LEFT -->
+            <div class="section2Header flex-1 font-bold text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl">
+
+                <div class="header-section2">
+                    <p>A developer</p>
+                    <p>driven by</p>
+                    <p>curiosity.</p>
+                </div>
+
+                <video autoplay loop muted playsinline class="circle1 w-[500px] hidden lg:flex ml-[-50px]">
+                    <source src="assets/videos/circles/c2.mp4" type="video/mp4">
+                </video>
+
+            </div>
+
+            <!-- RIGHT -->
+            <div class="quotes flex flex-col gap-10 text-lg w-full lg:w-[45%] mt-[60px] ">
+
+                <div>
+                    <p>I'm a full-stack developer focused on crafting clean, performant web</p>
+                    <p>experiences. I work across the stack — from pixel-perfect interfaces in</p>
+                    <p>React and Tailwind to robust APIs in Node and</p>
+                    <p>Express, backed by MySQL or MSSQL.</p>
+                </div>
+
+                <div>
+                    <p>care about small details: meaningful motion, intuitive flows and code</p>
+                    <p>that other humans can actually read. When I'm offline, I write about what</p>
+                    <p>I learn and tinker with C for fun.</p>
+                </div>
+
+                <div class="relative">
+                    <div class="absolute text-3xl opacity-20 -top-6 -left-2">
+                        <i class="bi bi-quote"></i>
+                    </div>
+
+                    <div class="bg-gray-100 w-full p-8 rounded-2xl flex flex-col gap-5 shadow-sm">
+                        <div>
+                            <p>Clean code isn't written by following a set of rules. It's written by someone</p>
+                            <p>who cares — and keeps caring, line after line.”</p>
+                        </div>
+                        <div>
+                            <p>— my working principle</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex justify-between text-sm">
+                    <div class="flex flex-col gap-2">
+                        <p>Focus</p>
+                        <p>Web · APIs · Systems</p>
+                    </div>
+
+                    <div class="flex flex-col gap-2">
+                        <p>Work</p>
+                        <p>Logical thinking</p>
+                    </div>
+
+                    <div class="flex flex-col gap-2">
+                        <p>Personality</p>
+                        <p>Logical thinking</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="min-h-screen]  relative">
+        <div class="w-full flex justify-center my-10">
+            <img src="https://github-readme-activity-graph.vercel.app/graph?username=KleiMoretti&bg_color=000000&color=ffffff&line=ffffff&point=ffffff&area=false&hide_border=true"
+                class="w-full max-w-5xl rounded-xl shadow-lg" alt="GitHub Activity Graph" />
+        </div>
+
+        <div class="w-full h-full flex justify-center items-center">
+
+
+            <!-- VIDEO CONTAINER -->
+            <div class="relative w-[95%] md:w-3/4">
+
+                <!-- VIDEO -->
+                <video autoplay loop playsinline class="w-full rounded-2xl">
+                    <source src="assets/videos/circles/v1.mp4" type="video/mp4">
+                </video>
+
+                <!-- TOP LEFT TEXT -->
+                <div class="absolute top-4 left-4 text-white font-bold text-xl md:text-4xl lg:text-6xl leading-tight
+                    p-3 md:p-10">
+                    <div>
+                        <p>Things I've built recently.</p>
+                    </div>
+                    <div>
+                        <p>→ Want the full archive?</p>
+                    </div>
+                    <div>
+                        <p>Ask.</p>
+                    </div>
+                </div>
+
+                <!-- BOTTOM LEFT TEXT -->
+                <div class="hidden lg:block absolute bottom-4 left-4 text-white text-lg p-10 max-w-xl">
+                    <p>This project aims to build a functional and user-friendly system while applying the fundamentals
+                        of web</p>
+
+                    <p>development. It highlights adaptability and curiosity in learning different technologies, showing
+                        that</p>
+
+                    <p>switching programming languages is not a limitation but an opportunity for growth.</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="min-h-[200vh]  relative text-black">
+        <div class="flex justify-center p-12 ">
+            <div>
+                <div class="text-center font-bold text-4xl">
+                    <p>P R O J E C T</p>
+                </div>
+                <div class="mt-5">
+                    <div class=" flex justify-center md:text-center sm:text-center">
+                        <p>I stay grounded in web fundamentals while continuously exploring the
+                            stacks I use every day.
+                            Learning
+                            and
+                        </p>
+                    </div>
+
+                    <div class="flex justify-center md:text-center sm:text-center">
+                        <p>
+                            adopting new programming languages isn’t a problem for me—I approach everything with
+                            curiosity.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex justify-center mt-10 ">
+                    <video id="vidC1" autoplay loop muted playsinline class="w-[400px]">
+                        <source src="assets/videos/circles/c1.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+                <div id="card-container"
+                    class="flex flex-col md:flex-row gap-6 md:gap-4 transition-transform duration-75 ease-out items-center md:items-start">
+
+                    <div id="card1" class="card   cursor-pointer md:-rotate-12 rounded-2xl overflow-hidden bg-white border border-gray-200 shadow p-4
+ww-[85%] sm:w-[70%] md:w-[50%] lg:w-[380px] aspect-[5/5]">
+                        <div class=" rounded-md bg-gray-500 h-[150px] overflow-hidden">
+                            <img src="assets/project/recon1.jpg" alt="">
+                        </div>
+                        <div>
+                            <div class="mt-3">
+                                <p class="font-bold">Web Recon Toolkit (Educational)</p>
+                            </div>
+                            <div class="mt-5 ">
+                                <p>A basic web security toolkit designed
+                                    >for learning and testing, covering
+                                    subdomain discovery, common
+                                    vulnerability awareness (like SQL njection and XSS)
+                                    A basic web security toolkit designed
+                                    CVE references, and detection of exposed sensitive paths.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="card2" class="card  cursor-pointer rounded-2xl overflow-hidden bg-white border border-gray-200 shadow p-4
+ww-[85%] sm:w-[70%] md:w-[50%] lg:w-[380px] aspect-[5/5]">
+                        <div class=" rounded-md bg-gray-500 h-[150px] overflow-hidden">
+                            <img class="rounded-md" src="assets/project/socialMedia.png" alt="">
+                        </div>
+                        <div>
+                            <div class="mt-3 ">
+                                <p class="font-bold">Twelve – Social Media Platform</p>
+                            </div>
+                            <div class="mt-5  ">
+                                <p>A modern social media web app inspired by TikTok, Facebook, and Instagram,
+                                    focused on
+                                    content sharing, user interaction, and real-time engagement.</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="card3" class="card md:rotate-12 cursor-pointer rounded-2xl overflow-hidden bg-white border border-gray-200 shadow p-4
+ww-[85%] sm:w-[70%] md:w-[50%] lg:w-[380px] aspect-[5/5]">
+                        <div class=" rounded-md bg-gray-500 h-[150px] overflow-hidden">
+                            <img class="rounded-md" src="assets/project/gmeet.png" alt="">
+                        </div>
+                        <div>
+                            <div class="mt-3">
+                                <p class="font-bold"> Smart GMeet Scheduler Link</p>
+                            </div>
+                            <div class="mt-5  ">
+                                <p>A centralized platform that consolidates multiple Google Meet links into a single
+                                    smart link, automatically redirecting users to scheduled meetings at the right
+                                    time.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section id="skills-section"
+        class="min-h-screen relative bg-slate-50 text-black p-5 md:p-10 overflow-hidden flex flex-col justify-center">
+        <div class="max-w-4xl mx-auto w-full mb-12">
+            <h2 class="skill-title text-4xl md:text-7xl font-black tracking-tighter">
+                MY SKILLS <span class="text-indigo-600">OF TRADE</span>
+            </h2>
+            <div class="text-lg md:text-2xl mt-5 text-gray-600 font-medium">
+                <p class="skill-text">A Full-Stack Developer and Security Enthusiast.</p>
+                <p class="skill-text">I craft clean code, secure systems, and aesthetic digital experiences.</p>
+            </div>
+        </div>
+
+
+        <div class="flex flex-col md:flex-row gap-5 md:min-h-[600px] max-w-6xl mx-auto w-full relative">
+
+            <!-- Left Column (UP) -->
+            <div class="skill-col-1 w-full md:w-1/2 flex flex-wrap gap-4 content-center md:justify-end">
+                <div class="skill-card bg-white shadow-xl rounded-2xl p-6 hover:scale-110 transition-transform">
+                    <img class="w-12 md:w-20 h-auto object-contain" src="assets/skills/skillsSet1/sequalize.png"
+                        alt="Sequelize">
+                </div>
+                <div class="skill-card bg-white shadow-xl rounded-2xl p-6 hover:scale-110 transition-transform">
+                    <img class="w-12 md:w-20 h-auto object-contain" src="assets/skills/skillsSet1/python.png"
+                        alt="Python">
+                </div>
+                <div class="skill-card bg-white shadow-xl rounded-2xl p-6 hover:scale-110 transition-transform">
+                    <img class="w-12 md:w-20 h-auto object-contain" src="assets/skills/skillsSet1/html.png" alt="HTML">
+                </div>
+                <div class="skill-card bg-white shadow-xl rounded-2xl p-6 hover:scale-110 transition-transform">
+                    <img class="w-12 md:w-20 h-auto object-contain" src="assets/skills/skillsSet1/js.png" alt="JS">
+                </div>
+                <div class="skill-card bg-white shadow-xl rounded-2xl p-6 hover:scale-110 transition-transform">
+                    <img class="w-12 md:w-20 h-auto object-contain" src="assets/skills/skillsSet1/tailwind.png"
+                        alt="Tailwind">
+                </div>
+                <div class="skill-card bg-white shadow-xl rounded-2xl p-6 hover:scale-110 transition-transform">
+                    <img class="w-12 md:w-20 h-auto object-contain" src="assets/skills/skillsSet1/mysql.png"
+                        alt="MySQL">
+                </div>
+                <div class="skill-card bg-white shadow-xl rounded-2xl p-6 hover:scale-110 transition-transform">
+                    <img class="w-12 md:w-20 h-auto object-contain" src="assets/skills/skillsSet1/express.png"
+                        alt="MySQL">
+                </div>
+            </div>
+
+            <!-- Right Column (DOWN) -->
+            <div class="skill-col-2 w-full md:w-1/2 flex flex-wrap gap-4 content-center md:justify-start md:mt-20">
+                <div class="skill-card bg-white shadow-xl rounded-2xl p-6 hover:scale-110 transition-transform">
+                    <img class="w-12 md:w-20 h-auto object-contain" src="assets/skills/skillsSet2/github.png"
+                        alt="Github">
+                </div>
+                <div class="skill-card bg-white shadow-xl rounded-2xl p-6 hover:scale-110 transition-transform">
+                    <img class="w-12 md:w-20 h-auto object-contain" src="assets/skills/skillsSet2/reactJs.png"
+                        alt="React">
+                </div>
+                <div class="skill-card bg-white shadow-xl rounded-2xl p-6 hover:scale-110 transition-transform">
+                    <img class="w-12 md:w-20 h-auto object-contain" src="assets/skills/skillsSet2/nextJs.png"
+                        alt="NextJS">
+                </div>
+                <div class="skill-card bg-white shadow-xl rounded-2xl p-6 hover:scale-110 transition-transform">
+                    <img class="w-12 md:w-20 h-auto object-contain" src="assets/skills/skillsSet2/nodeJs.png"
+                        alt="NodeJS">
+                </div>
+                <div class="skill-card bg-white shadow-xl rounded-2xl p-6 hover:scale-110 transition-transform">
+                    <img class="w-12 md:w-20 h-auto object-contain" src="assets/skills/skillsSet2/css.png" alt="CSS">
+                </div>
+                <div class="skill-card bg-white shadow-xl rounded-2xl p-6 hover:scale-110 transition-transform">
+                    <img class="w-12 md:w-20 h-auto object-contain" src="assets/skills/skillsSet2/c.png" alt="CSS">
+                </div>
+                <div class="skill-card bg-white shadow-xl rounded-2xl p-6 hover:scale-110 transition-transform">
+                    <img class="w-12 md:w-20 h-auto object-contain" src="assets/skills/skillsSet2/sql.png" alt="CSS">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="stack-container" class="relative w-full h-screen overflow-hidden">
+
+
+
+        <!-- Section 1 (Visible sa default) -->
+        <section
+            class="stack-section absolute inset-0 flex flex-col items-center justify-center bg-[oklch(96.3%_0.002_197.1)] z-[1]">
+            <div class="w-11/12 h-[80vh] flex items-center justify-center">
+                <img src="assets/certificates/cert1.jpg"
+                    class="max-w-full max-h-full object-contain rounded-lg shadow-2xl" alt="Certificate 1">
+            </div>
+            <h2 class="mt-4 text-2xl font-bold bg-black/30 px-6 py-2 rounded-full">Certificate 01</h2>
+        </section>
+
+        <!-- Section 2 -->
+        <section
+            class="stack-section absolute inset-0 flex flex-col items-center justify-center bg-[oklch(87.2%_0.007_219.6)] z-[2]">
+            <div class="w-11/12 h-[80vh] flex items-center justify-center">
+                <img src="assets/certificates/cert2.jpg"
+                    class="max-w-full max-h-full object-contain rounded-lg shadow-2xl" alt="Certificate 2">
+            </div>
+            <h2 class="mt-4 text-2xl font-bold bg-black/30 px-6 py-2 rounded-full">Certificate 02</h2>
+        </section>
+
+        <!-- Section 3 -->
+        <section
+            class="stack-section absolute inset-0 flex flex-col items-center justify-center bg-[oklch(56%_0.021_213.5)] z-[3]">
+            <div class="w-11/12 h-[80vh] flex items-center justify-center">
+                <img src="assets/certificates/cert3.jpg"
+                    class="max-w-full max-h-full object-contain rounded-lg shadow-2xl" alt="Certificate 3">
+            </div>
+            <h2 class="mt-4 text-2xl font-bold bg-black/30 px-6 py-2 rounded-full">Certificate 03</h2>
+        </section>
+
+        <!-- Section 4 -->
+        <section
+            class="stack-section absolute inset-0 flex flex-col items-center justify-center bg-[oklch(21.8%_0.008_223.9)] z-[4]">
+            <div class="w-11/12 h-[80vh] flex items-center justify-center">
+                <img src="assets/certificates/cert4.jpg"
+                    class="max-w-full max-h-full object-contain rounded-lg shadow-2xl" alt="Certificate 4">
+            </div>
+            <h2 class="mt-4 text-2xl font-bold bg-white px-6 py-2 rounded-full">Certificate 04</h2>
+        </section>
+
+    </section>
+
+    <section id="vlogSelf" class="h-screen bg-[oklch(96.7%_0.001_286.375)] overflow-hidden">
+        <div class="w-full h-full flex justify-center items-center px-4">
+
+            <div
+                class="relative bg-white shadow-xl h-[80vh] w-full md:w-5/6 rounded-2xl overflow-hidden flex flex-col md:flex-row gap-10 ">
+
+                <!-- IMAGE -->
+                <div class="overflow-hidden w-full md:w-1/2 ">
+                    <img class="eye w-full h-full object-cover object-center " src="assets/profiles/profile2.jpg"
+                        alt="">
+                </div>
+
+                <!-- TEXT -->
+                <div
+                    class="relative w-full md:w-1/2 flex justify-center items-center text-center md:text-left text-2xl md:text-3xl font-sans">
+
+                    <div class="absolute intro-text">
+                        <p class="card-name">I'm Jhon Leonard Gualdahara</p>
+                        <p class="card-aka">
+                            also known as
+                            <span class="font-bold">DOSE / TWELVE</span>
+                        </p>
+                    </div>
+
+                    <div class="absolute school-text">
+                        <p class="school-info1">I am a first-year college student</p>
+                        <p class="school-info2">
+                            taking
+                            <span class="font-bold">
+                                Bachelor of Science in Computer Science
+                            </span>
+                        </p>
+                        <p class="school-info3">
+                            at <span class="font-bold">Laguna University</span>
+                        </p>
+                    </div>
+
+                    <div class="absolute vlog-text1">
+                        <p>I will show my <span class="font-bold">Personal Vlog</span></p>
+                    </div>
+
+                    <div class="absolute vlog-text2">
+                        <p>in</p>
+                    </div>
+
+                    <div class="absolute vlog-text3">
+                        <p>1</p>
+                    </div>
+
+                    <div class="absolute vlog-text4">
+                        <p>2</p>
+                    </div>
+
+                    <div class="absolute vlog-text5">
+                        <p>3</p>
+                    </div>
+
+                    <!-- VIDEO -->
+                    <div class=" absolute vlogVideo w-full h-full opacity-0 flex justify-center items-center">
+                        <video id="myVideo" class="w-full max-w-3xl rounded-2xl shadow-2xl" controls autoplay loop
+                            muted>
+                            <source src="assets/videos/VlogVid/Vlog_Gualdahara.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                </div>
+                <div id="quotesVlogs"
+                    class="quotesVlogs absolute left-0 w-full h-full md:w-1/2 flex items-center justify-center px-6 md:px-10">
+                    <p class="text-sm md:text-lg italic text-gray-600 leading-relaxed max-w-md">
+                        "I don’t need recognition; I’d rather do what is right even when no one knows it was me."
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="min-h-screen flex items-center justify-center bg-gray-100 px-4">
+        <div class="w-full max-w-2xl bg-white shadow-xl rounded-2xl p-8 md:p-12">
+
+            <h2 class="text-3xl font-bold text-gray-800 text-center mb-2">
+                Contact Me
+            </h2>
+            <p class="text-center text-gray-500 mb-8">
+                Send me a message or connect with me on social media.
+            </p>
+
+            <form class="space-y-5">
+
+                <div>
+                    <label class="block text-sm font-medium text-gray-700">Name</label>
+                    <input type="text" placeholder="Your name"
+                        class="w-full mt-1 p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" />
+                </div>
+
+                <div>
+                    <label class="block text-sm font-medium text-gray-700">Email</label>
+                    <input type="email" placeholder="you@example.com"
+                        class="w-full mt-1 p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" />
+                </div>
+
+                <div>
+                    <label class="block text-sm font-medium text-gray-700">Message</label>
+                    <textarea rows="5" placeholder="Write your message..."
+                        class="w-full mt-1 p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                </div>
+
+                <button type="submit"
+                    class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-lg transition">
+                    Send Message
+                </button>
+            </form>
+
+            <!-- Social Links -->
+            <div class="mt-10 text-center">
+                <p class="text-gray-500 mb-4">Or connect with me</p>
+
+                <div class="flex flex-wrap justify-center gap-4 text-sm font-medium">
+
+                    <a href="https://github.com/" target="_blank"
+                        class="px-4 py-2 border rounded-full hover:bg-gray-100 transition">
+                        GitHub
+                    </a>
+
+                    <a href="https://www.facebook.com/xx.xx.xx.xx.xx.xx.1412" target="_blank"
+                        class="px-4 py-2 border rounded-full hover:bg-gray-100 transition">
+                        Facebook
+                    </a>
+
+                    <a href="https://www.instagram.com/klei.moretti/" target="_blank"
+                        class="px-4 py-2 border rounded-full hover:bg-gray-100 transition">
+                        Instagram
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+    <script>
+        gsap.registerPlugin(ScrollTrigger);
+
+        // 1. SKILLS SECTION TIMELINE (With Parallax Effect)
+        const skillsTl = gsap.timeline({
+            scrollTrigger: {
+                trigger: "#skills-section",
+                start: "top top",
+                end: "+=2000", // Ginawa kong mas matagal para mas dama ang animation
+                scrub: 1.5,    // Mas mataas na scrub value para mas smooth "smooth"
+                pin: true,
+                anticipatePin: 1
+            }
+        });
+
+        // Reveal Title & Text
+        skillsTl.from(".skill-title", { x: -100, opacity: 0, duration: 1 })
+            .from(".skill-text", { x: 50, opacity: 0, stagger: 0.2, duration: 1 }, "-=0.8");
+
+
+        skillsTl.from(".skill-col-1", { y: 300, ease: "none" }, 0)
+            .from(".skill-col-2", { y: -300, ease: "none" }, 0);
+
+        // Subtle Fade-in for cards
+        skillsTl.from(".skill-card", {
+            scale: 0.8,
+            opacity: 0,
+            stagger: 0.05,
+            duration: 0.5
+        }, "-=1");
+
+
+        // 2. CERTIFICATE STACKING TIMELINE (Connects after Skills)
+        const certs = gsap.utils.toArray(".stack-section");
+        const certsTl = gsap.timeline({
+            scrollTrigger: {
+                trigger: "#stack-container",
+                start: "top top",
+                end: () => `+=${certs.length * 100}%`,
+                pin: true,
+                scrub: 1,
+            }
+        });
+
+        certs.forEach((box, i) => {
+            if (i === 0) return;
+            certsTl.from(box, { yPercent: 100, ease: "none" }, "+=0.1");
+        });
+    </script>
+
+    <script>
+        gsap.registerPlugin(ScrollTrigger);
+
+        const tl = gsap.timeline({
+            scrollTrigger: {
+                trigger: "#vlogSelf",
+                start: "top top",
+                end: "+=5000",
+                scrub: 1.5,
+                pin: true,
+                anticipatePin: 1
+            }
+        });
+
+        // INTRO
+        tl.from(".eye", {
+            y: -50,
+            opacity: 0,
+            duration: 5
+        })
+
+            .from(".card-name", {
+                x: -100,
+                opacity: 0,
+                duration: 5
+            })
+
+            .from(".card-aka", {
+                x: 100,
+                opacity: 0,
+                duration: 5
+            })
+
+            .to(".intro-text", {
+                opacity: 0,
+                duration: 20
+            })
+
+            // SCHOOL
+            .from(".school-info1", {
+                x: -100,
+                opacity: 0,
+                duration: 5
+            })
+
+            .from(".school-info2", {
+                x: 100,
+                opacity: 0,
+                duration: 5
+            })
+
+            .from(".school-info3", {
+                y: 50,
+                opacity: 0,
+                duration: 5
+            })
+
+            .to(".school-text", {
+                opacity: 0,
+                duration: 20
+            })
+
+            // VLOG TEXT
+            .from(".vlog-text1", {
+                opacity: 0,
+                scale: 0.8,
+                duration: 10
+            })
+
+            .to(".vlog-text1", {
+                opacity: 0,
+                duration: 10
+            })
+
+            // COUNTDOWN
+            .from(".vlog-text2", {
+                opacity: 0,
+                scale: 0.5,
+                duration: 10
+            })
+
+            .to(".vlog-text2", {
+                opacity: 0,
+                duration: 10
+            })
+
+            .from(".vlog-text3", {
+                opacity: 0,
+                scale: 0.5,
+                duration: 10
+            })
+
+            .to(".vlog-text3", {
+                opacity: 0,
+                duration: 10
+            })
+
+            .from(".vlog-text4", {
+                opacity: 0,
+                scale: 0.5,
+                duration: 10
+            })
+
+            .to(".vlog-text4", {
+                opacity: 0,
+                duration: 10
+            })
+
+            .from(".vlog-text5", {
+                opacity: 0,
+                scale: 0.5,
+                duration: 10
+            })
+
+            .to(".vlog-text5", {
+                opacity: 0,
+                duration: 10
+            })
+
+            // IMAGE OUT
+            .to(".eye", {
+                opacity: 0,
+                scale: 1.2,
+                duration: 10
+            })
+
+            // VIDEO IN
+
+            .from(".quotesVlogs", {
+                y: -100,
+                opacity: 0,
+                duration: 10
+            })
+
+
+            .to(".vlogVideo", {
+                opacity: 1,
+                duration: 20
+            })
+
+            .to(".quotesVlogs", {
+                opacity: 1,
+                duration: 20
+            });
+    </script>
+
+    <script>
+        //const c1 = document.getElementById("c1");
+        //const pt = document.getElementById("p-and-t");
+        //const vidC1 = document.getElementById("vidC1");
+        //const vidC2 = document.getElementById("vidC2");
+
+        const cardContainer = document.getElementById("card-container");
+        const card1 = document.getElementById("card1");
+        const card2 = document.getElementById("card2");
+        const card3 = document.getElementById("card3");
+
+        //const scrollYX = document.getElementById("scrollYX");
+        //const height = document.getElementById("height");
+        window.addEventListener("scroll", () => {
+            let scrollY = window.scrollY;
+
+            //scrollYX.innerText = scrollY;
+            //height.innerText = innerHeight;
+
+            //for skills animation
+
+            const isDesktop = window.innerWidth >= 800;
+
+
+            //FOR PROJECT CARD
+            if (!isDesktop) {
+                // MOBILE / TABLET RESET ONCE LOGIC
+
+                cardContainer.style.transform = "";
+                cardContainer.style.gap = "";
+                cardContainer.style.display = "flex";
+                card1.style.transform = "";
+                card3.style.transform = "";
+            } else {
+                // DESKTOP ANIMATION
+
+                // ROTATION
+                if (scrollY > 3200) {
+                    card1.style.transform = "rotate(0deg)";
+                    card3.style.transform = "rotate(0deg)";
+                } else {
+                    card1.style.transform = "";
+                    card3.style.transform = "";
+                }
+
+                // MOVE PHASE (3000–3822 only)
+                if (scrollY > 3000 && scrollY <= 3822) {
+                    const moveAmount = (scrollY - 3000) * 0.9;
+                    const gap = (scrollY - 3000) * 0.3;
+
+                    cardContainer.style.transform = `translateY(${moveAmount}px)`;
+                    cardContainer.style.gap = `${gap}px`;
+                }
+
+                // LOCK POSITION (after 3822)
+                if (scrollY > 3822) {
+                    cardContainer.style.transform = `translateY(700px)`;
+                }
+
+                // HIDE END STATE
+                if (scrollY > 4500) {
+                    cardContainer.style.display = "none";
+                } else {
+                    cardContainer.style.display = "flex";
+                }
+            }
+
+        })
+    </script>
+
+    <script>
+        //for muted sa video
+        const video = document.getElementById("myVideo");
+
+        const observer = new IntersectionObserver((videos) => {
+            videos.forEach(vid => {
+
+                if (!vid.isIntersecting) {
+                    video.muted = true;
+                    video.pause();
+                } else {
+                    video.muted = false;
+                }
+
+            });
+        }, {
+            threshold: 0.5 // 50% visible bago considered focused
+        });
+
+        observer.observe(video);
+    </script>
+
+</body>
+
+</html>
