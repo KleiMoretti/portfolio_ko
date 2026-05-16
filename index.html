@@ -650,19 +650,19 @@ ww-[85%] sm:w-[70%] md:w-[50%] lg:w-[380px] aspect-[5/5]">
     <script>
         gsap.registerPlugin(ScrollTrigger);
 
-        // 1. SKILLS SECTION TIMELINE (With Parallax Effect)
+       
         const skillsTl = gsap.timeline({
             scrollTrigger: {
                 trigger: "#skills-section",
                 start: "top top",
-                end: "+=2000", // Ginawa kong mas matagal para mas dama ang animation
-                scrub: 1.5,    // Mas mataas na scrub value para mas smooth "smooth"
+                end: "+=2000", 
+                scrub: 1.5,  
                 pin: true,
                 anticipatePin: 1
             }
         });
 
-        // Reveal Title & Text
+        
         skillsTl.from(".skill-title", { x: -100, opacity: 0, duration: 1 })
             .from(".skill-text", { x: 50, opacity: 0, stagger: 0.2, duration: 1 }, "-=0.8");
 
@@ -670,7 +670,7 @@ ww-[85%] sm:w-[70%] md:w-[50%] lg:w-[380px] aspect-[5/5]">
         skillsTl.from(".skill-col-1", { y: 300, ease: "none" }, 0)
             .from(".skill-col-2", { y: -300, ease: "none" }, 0);
 
-        // Subtle Fade-in for cards
+        
         skillsTl.from(".skill-card", {
             scale: 0.8,
             opacity: 0,
@@ -897,12 +897,12 @@ ww-[85%] sm:w-[70%] md:w-[50%] lg:w-[380px] aspect-[5/5]">
                     cardContainer.style.gap = `${gap}px`;
                 }
 
-                // LOCK POSITION (after 3822)
+               
                 if (scrollY > 3822) {
                     cardContainer.style.transform = `translateY(700px)`;
                 }
 
-                // HIDE END STATE
+               
                 if (scrollY > 4500) {
                     cardContainer.style.display = "none";
                 } else {
@@ -929,7 +929,7 @@ ww-[85%] sm:w-[70%] md:w-[50%] lg:w-[380px] aspect-[5/5]">
 
             });
         }, {
-            threshold: 0.5 // 50% visible bago considered focused
+            threshold: 0.5 
         });
 
         observer.observe(video);
